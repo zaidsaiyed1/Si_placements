@@ -49,20 +49,28 @@ cd si_placements/jobscraper
 
 This project requires Python 3. Make sure you have it installed. Then, run virtual enviroment:
 
+ **Windows (CMD)**
 ```cmd
-env\Scripts\activate  # for windows (CMD)
+env\Scripts\activate 
 ```
 
+**MACOS (Terminal)**
 ```macOS / iOS (Terminal)
-source env/bin/activate # for IOS (Terminal)
+source env/bin/activate 
 ```
 
 ### 3. Run the Development Server
 
 Once the virtuak enviroment started, then start the Django development server:
 
+ **Windows (CMD)**
 ```bash
-python manage.py runserver
+python manage.py runserver 
+```
+
+**MACOS (Terminal)**
+```bash
+python3 manage.py runserver 
 ```
 
 ### 4. Use the Application

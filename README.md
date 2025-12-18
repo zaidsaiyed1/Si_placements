@@ -84,17 +84,25 @@ python3 manage.py runserver
 3.  Fill in the fields and click the **Search** button.
 4.  The application will scrape Internshala for relevant job listings. After the search is complete, you will be redirected back to the search page.
 5.  The scraped job data will be saved in the `jobscraper/outputs/json.json` file. Each new search appends its results to this file.
+6. You can also cee it in browser url: `http://127.0.0.1:8000/view_jobs` and also in json file as well.
 
-##  Sample Input & Output
+#  Sample Input & Output
 
 **Input**
 <img width="1914" height="983" alt="image" src="https://github.com/user-attachments/assets/ce3ed105-0246-4b8d-a4d2-1c87c9e0a656" />
 
-**Output (Output will display in json.json file)**
+**Output**
+
+### Json FIle Output
 
 <img width="345" height="425" alt="image" src="https://github.com/user-attachments/assets/4c605b7d-787e-4207-97f5-bf54891708a3" />
 
 <img width="1907" height="873" alt="image" src="https://github.com/user-attachments/assets/c1e1f30f-d462-4389-aebd-cdb05e6d903b" />
+
+
+### Browser Output
+
+<img width="1914" height="986" alt="image" src="https://github.com/user-attachments/assets/0c39bd32-29eb-473e-afe2-e449c1983283" />
 
 
 ## Challenges Faced

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Search Job</title>
+</head>
+<body>
+              <h1>Search Job</h1>
+              <form action="../search/" method="post">
+                            {% csrf_token %}
+                            <input type="text" id="description" name="description" placeholder="Job Description">
+                            <input type="text" id="location" name="location" placeholder="Location">
+                            <input type="text" id="experience_level" name="experience_level" placeholder="Experience Level">
+                            <input type="submit" id="searchBtn" value="Search">
+              </form>
+</body>
+</html>

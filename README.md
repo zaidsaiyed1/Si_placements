@@ -42,7 +42,6 @@ Follow these steps to set up and run the project locally.
 
 ```bash
 git clone https://github.com/zaidsaiyed1/si_placements.git
-cd si_placements/jobscraper
 ```
 
 ### 2. Install Dependencies
@@ -65,6 +64,7 @@ Once the virtuak enviroment started, then start the Django development server:
 
  **Windows (CMD)**
 ```bash
+cd si_placements/jobscraper
 python manage.py runserver 
 ```
 

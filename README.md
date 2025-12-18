@@ -70,6 +70,7 @@ python manage.py runserver
 
 **MACOS (Terminal)**
 ```bash
+cd si_placements/jobscraper
 python3 manage.py runserver 
 ```
 

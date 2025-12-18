@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 from django.shortcuts import render,redirect
 from scraper.internshala_scraper import scrape_internshala_jobs
 import json
@@ -38,4 +39,13 @@ def search_jobs(request):
               jobs_internshala=scrape_internshala_jobs(description, location, experience_level)
               save_jobs_to_json(jobs_internshala)    
 #     print(jobs)
-    return redirect('/')
+    return redirect('view_jobs')
+
+
+def view_jobs(request):
+    with open(OUTPUT_PATH, 'r', encoding="utf-8") as f:
+        jobs = json.load(f)
+    context = {
+        'jobs': jobs
+    }
+    return JsonResponse(jobs, safe=False)

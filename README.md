@@ -38,7 +38,9 @@ This repository contains a Django-based web application designed to scrape job a
 
 Follow these steps to set up and run the project locally.
 
-### 1. Clone the Repository
+### 1. Clone the Repository OR Download 
+
+  -> You can Download the zip file also
 
 ```bash
 git clone https://github.com/zaidsaiyed1/si_placements.git
